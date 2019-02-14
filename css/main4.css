@@ -1,0 +1,37 @@
+.box{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to right, black, white);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box1{
+    width: 500px;
+    height: 200px;
+    background: radial-gradient(circle, brown, orange);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box2{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to right, white, pink, teal, navy);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box3{
+    width: 500px;
+    height: 200px;
+    background: radial-gradient(green, black);
+    margin-bottom: 10px;
+    position: relative;
+    transition-property: background-color width;
+    transition-duration: 05s;
+    transition-delay: 02s;
+    transition-timing-function: ease-in;
+}
+
+.box3:hover{
+    transition-property: black;
+    width: 300px;
+}

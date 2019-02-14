@@ -1,0 +1,25 @@
+
+.label, #toggle{
+    display: none;
+}
+@media(max-width:700px){
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: rgba(0,0,0,0.5);
+        display: none;
+    }
+    .fas{
+        font-size: 25px;
+        color: var(--text-color);
+        float: right;
+        width: 30px;
+    }
+    .icon:checked+.menu{
+        display: block;
+    }
+    .label{
+        display: block;
+    }
+}
